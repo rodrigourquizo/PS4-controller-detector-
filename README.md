@@ -1,2 +1,2 @@
-# controller_detector
+# Controller_detector
 CNN for object detection
