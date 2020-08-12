@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>20200810_100659.jpg</filename>
+	<path>C:\Users\Usuario\Desktop\PROYECTOS_PYTHON\AI_ML\CNN\images\train\20200810_100659.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>controller</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>73</xmin>
+			<ymin>181</ymin>
+			<xmax>166</xmax>
+			<ymax>249</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>20200810_101125.jpg</filename>
+	<path>C:\Users\Usuario\Desktop\PROYECTOS_PYTHON\AI_ML\CNN\images\test\20200810_101125.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>controller</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>54</xmin>
+			<ymin>69</ymin>
+			<xmax>229</xmax>
+			<ymax>197</ymax>
+		</bndbox>
+	</object>
+</annotation>
