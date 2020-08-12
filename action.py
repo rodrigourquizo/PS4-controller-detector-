@@ -6,11 +6,6 @@ import tensorflow as tf
 import os
 import numpy as np
 from PIL import Image
-import matplotlib.pyplot as plt 
-import pathlib
-import matplotlib
-
-matplotlib.use("Qt5Agg")
 
 path_pipeline = "./training/exported_models/pipeline.config"
 path_checkpoint ="./training/exported_models/checkpoint"
@@ -86,11 +81,10 @@ viz_utils.visualize_boxes_and_labels_on_image_array(
         agnostic_mode=False)
 
 
-plt.imshow(image_np_with_detections)
-print('Done')
-plt.show()
-
-
+if __name__ == "__main__":    
+    img = Image.fromarray(image_np_with_detections.astype("uint8"), 'RGB')
+    img.save('prediction.jpg')
+    img.show()  
 
 
 
