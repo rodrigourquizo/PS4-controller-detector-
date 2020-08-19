@@ -1,0 +1,1 @@
+You have to change the path in the xml files to your xml directory
